@@ -1,6 +1,6 @@
 # CS3200 Final Project
 
-### Course Planner
+### Shareable Course Planner
 
 #### Anthony Cherubino
 
@@ -14,11 +14,11 @@
 
 ##### Problem Statement:
 
-While Canvas provides an online portal to see one's courses, assignments, and grades, it is limiting that one course can be viewed at a time without a good way of looking at all of a student's courses at once. In addition to this, you can only see your own courses and assignments (understandably), but I think it can be useful to allow this information to be also shared with the group as a whole can keep up on what everyone is working on and see when they will be busy.
+While Canvas provides an online portal to see one's courses, assignments, and grades, it is limiting that one course can be viewed at a time without a good way of looking at all of a student's courses at once. In addition to this, you can only see your own courses and assignments (understandably), but I think it can be useful to allow this information to be also shared with a group so that one can keep up on what everyone is working on and see when they will be busy.
 
 ##### Solution Statement:
 
-To address this issue, I have created this Course Planner. This database allows users to enter and track their courses and the assignments from those courses in addition to being able to see the other users who are in their class as well as the other assignments that those users have.
+To address this issue, I have created this Shareable Course Planner. This database allows users to enter and track their courses and the assignments from those courses in addition to being able to see the other users who are in their class as well as the other assignments that those users have.
 
 ##### User:
 
