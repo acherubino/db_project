@@ -98,9 +98,9 @@ Available actions:
 
 /api/courseCodes/create - **View course code creation template**
 
-/api/courseCodes/create/{number}/{name}/{code} - **Create new course code with input data**
+/api/courseCodes/create/{code} - **Create new course code with input data**
 
-/api/courseCodes/{id}/{number}/{name}/{code} - **Update existing course code by ID with input data**
+/api/courseCodes/{id}/{code} - **Update existing course code by ID with input data**
 
 /api/courseCodes/{id}/delete - **Delete existing course code by ID**
 
@@ -116,9 +116,9 @@ The assignments table keeps track of all the assignemtns within the courses whic
 
 /api/assignments/create - **View assignment creation template**
 
-/api/assignments/create/{user}/{course} - **Create new assignment with input data**
+/api/assignments/create/{title}/{dueDate}/{course} - **Create new assignment with input data**
 
-/api/assignments/{id}/{user}/{course} - **Update existing assignment by ID with input data**
+/api/assignments/{id}/{title}/{dueDate}/{course} - **Update existing assignment by ID with input data**
 
 /api/assignments/{id}/delete - **Delete existing assignment by ID**
 
