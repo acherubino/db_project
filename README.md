@@ -40,7 +40,7 @@ Available actions:
 
 /api/users/create/{uname}/{pword}/{fname}/{lname}/{email}/{dob} - **Create new user with input data**
 
-/api/users/{id}/{fname}/{lname}/{uname}/{pword}/{email}/{dob} - **Update existing user by ID with input data**
+/api/users/{id}/{uname}/{pword}/{fname}/{lname}/{email}/{dob} - **Update existing user by ID with input data**
 
 /api/users/{id}/delete - **Delete existing user by ID**
 

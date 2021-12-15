@@ -45,7 +45,7 @@ public class UserDao {
         newUser.setDob(dob);
         return userRepository.save(newUser);
     }
-    @GetMapping("/api/users/{userId}/{fname}/{lname}/{uname}/{pword}/{email}/{dob}")
+    @GetMapping("/api/users/{userId}/{uname}/{pword}/{fname}/{lname}/{email}/{dob}")
     public User updateUser(
             @PathVariable("userId") Integer id,
             @PathVariable("fname") String fname,
