@@ -26,6 +26,8 @@ The typical user of this system would be a Student who is currently enrolled in 
 
 ##### Domain Objects:
 
+![UML Diagram](https://github.com/acherubino/db_project/blob/main/db_project_UML.PNG?raw=true)
+
 ###### #1 - Users
 
 The users table keeps track of the various students who are currently enrolled in classes. A student can be registered to one or more courses, implemented through a reified one-to-many relationship with the registrations table.
